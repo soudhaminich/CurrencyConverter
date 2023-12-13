@@ -1,0 +1,75 @@
+body{
+    background-image: url(images/money.jpg);
+}
+
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  label{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+#conversionForm{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 40px;
+    margin: 50px auto auto auto;
+    justify-content: center;
+    background-color: lightgrey;
+    opacity: 0.9;
+}
+#historyTable{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 40px;
+  margin: 50px auto auto auto;
+  justify-content: center;
+  background-color: lightgrey;
+}
+#conversionForm:hover{
+    opacity: 1.0;
+}
+
+h2,h3{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+table, th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+}
